@@ -10,6 +10,6 @@ cd /FPS_ProjetOnlyJS
 npx serve . 
 npm install --save three 
 npm install --save-dev vite 
-npx run
+npx vite
 ```
 
