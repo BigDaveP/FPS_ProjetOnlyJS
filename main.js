@@ -86,7 +86,6 @@ const key = [];
     setTimeout(loop,1000/60);
 })();
 
-// Marche un peu mais c'est encore cassé. C'est dog shit
 function checkCollision() {
     for (let i = 0; i < positionCube.length; i++) {
         if (camera.position.x < positionCube[1].x + 1.5 &&
