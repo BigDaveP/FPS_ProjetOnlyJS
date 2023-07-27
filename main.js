@@ -112,19 +112,6 @@ window.addEventListener("mousemove", (event) => {
     }
 });
 
-window.addEventListener("keyup", (e) =>{
-    if (e.key === "e"){
-        if (animateCube){
-            animateCube = false
-            document.getElementById("info").innerText = "Stu fa là maudit malade?!"
-        }
-        else{
-            animateCube = true
-            document.getElementById("info").innerText = "Comment ça ça bouge ? Jpense que chu fatigué..."
-
-        }
-    }
-})
 function animate() {
     requestAnimationFrame( animate );
 
